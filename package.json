@@ -1,0 +1,31 @@
+{
+  "name": "pushbullet-cli",
+  "version": "0.1.0",
+  "description": "PushBullet Command Line Client",
+  "main": "pushbullet.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexborisov/pushbullet-cli"
+  },
+  "keywords": [
+    "pushbullet",
+    "cli",
+    "push",
+    "notification",
+    "android",
+    "ios",
+    "nodejs",
+    "node",
+    "iojs",
+    "io"
+  ],
+  "author": "Alex Borisov <alex@alexborisov.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexborisov/pushbullet-cli/issues"
+  },
+  "homepage": "https://github.com/alexborisov/pushbullet-cli"
+}
