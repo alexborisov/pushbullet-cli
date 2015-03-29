@@ -27,7 +27,7 @@ Where `YOUR_KEY` is the API key you obtained from your PushBullet _Account Setti
 
 Done! Ready to roll.
 
-*NOTE:* Your key will be stored under your OS _user data_ folder in a file `.pbcli`. Running `--key` again will override this file.
+**NOTE:** Your key will be stored under your OS _user data_ folder in a file `.pbcli`. Running `--key` again will override this file.
 
 ## Usage
 
