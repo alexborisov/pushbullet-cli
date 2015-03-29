@@ -78,6 +78,6 @@ node pushbullet --devices
 
 ## Contributing
 
-This is a utility project written to scratch an itch. It works for my use cases. While i plan to periodically develop it further, never the less this project is not amazingly high on my priority list.
+This is a utility project written to scratch an itch. It works for my use cases. While I plan to periodically develop it further, this project is not amazingly high on my priority list.
 
-*Pull requests are very welcome* if you wish to contribute features, fixes etc... I only ask that you try to keep your code minimalistic, clean and performance oriented.
+**Pull requests are very welcome** if you wish to contribute features, fixes etc... I only ask that you try to keep your code minimalistic, clean and performance oriented.
