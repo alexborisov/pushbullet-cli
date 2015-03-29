@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "PushBullet Command Line Client",
   "main": "pushbullet.js",
-  "scripts": {
-    "test": "npm test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexborisov/pushbullet-cli"
