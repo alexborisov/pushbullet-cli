@@ -12,6 +12,14 @@ It should run with vanilla _node.js_, but your mileage may vary!
 
 ## Installing
 
+You can either `git clone` this repo or download via _npm_:
+
+```
+npm install ab-pushbullet-cli
+```
+
+## Setup
+
 This utility is designed to be light and simple with minimal dependencies and configuration.
 
 First download all dependencies
