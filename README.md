@@ -17,15 +17,17 @@ npm install
 
 You will then need to obtain your API key from your PushBullet _Account Settings_.
 
-Create a text file `.env` in the root of the project directory with the following:
+Configure _pushbullet-cli_ to use your key
 
 ```
-API_KEY=YOURKEY
+node pushbullet --key YOUR_KEY
 ```
 
-Where `YOURKEY` is the API key you obtained from your PushBullet _Account Settings_.
+Where `YOUR_KEY` is the API key you obtained from your PushBullet _Account Settings_.
 
 Done! Ready to roll.
+
+*NOTE:* Your key will be stored under your OS _user data_ folder in a file `.pbcli`. Running `--key` again will override this file.
 
 ## Usage
 
@@ -62,10 +64,15 @@ In addition you may also push to a group of devices:
 node pushbullet -d [my-device, another-device] "This is a test"
 ```
 
+### Return a list of devices
+
+```
+node pushbullet --devices
+```
+
 ## Planned Features
 
 * Specify the notification type with the `-t` option
-* Return a list of devices `--devices`
 * Update a prior push `-u`
 * Return the push history `--history`
 
