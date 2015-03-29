@@ -1,11 +1,11 @@
-= PushBullet CLI Client
+# PushBullet CLI Client
 
 Send PushBullet notifications to your devices via the command line.
 
 The primary motivation for this project was to allow for an easy way to push notifications in response to system events.
 For example: notifying that a download has completed or that a build task has finished.
 
-== Installing
+## Installing
 
 This utility is designed to be light and simple with minimal dependencies and configuration.
 
@@ -27,15 +27,15 @@ Where `YOURKEY` is the API key you obtained from your PushBullet _Account Settin
 
 Done! Ready to roll.
 
-== Usage
+## Usage
 
-=== Broadcast a simple note to all devices
+### Broadcast a simple note to all devices
 
 ```
 node pushbullet "This is a test"
 ```
 
-=== Specify a title
+### Specify a title
 
 You can set a custom title using the `--title` option
 
@@ -43,7 +43,7 @@ You can set a custom title using the `--title` option
 node pushbullet --title "Test Note" "This is a test"
 ```
 
-=== Push to a device
+### Push to a device
 
 You can push to a specific device using the `-d` option and mirrors the _node-pushbullet-api_ api:
 
@@ -62,14 +62,14 @@ In addition you may also push to a group of devices:
 node pushbullet -d [my-device, another-device] "This is a test"
 ```
 
-== Planned Features
+## Planned Features
 
 * Specify the notification type with the `-t` option
 * Return a list of devices `--devices`
 * Update a prior push `-u`
 * Return the push history `--history`
 
-== Contributing
+## Contributing
 
 This is a utility project written to scratch an itch. It works for my use cases. While i plan to periodically develop it further, never the less this project is not amazingly high on my priority list.
 
