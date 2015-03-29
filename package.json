@@ -1,5 +1,5 @@
 {
-  "name": "pushbullet-cli",
+  "name": "ab-pushbullet-cli",
   "version": "0.1.0",
   "description": "PushBullet Command Line Client",
   "main": "pushbullet.js",
