@@ -29,7 +29,9 @@
   },
   "homepage": "https://github.com/alexborisov/pushbullet-cli",
   "dependencies": {
+    "commander": "^2.7.1",
     "dotenv": "^1.0.0",
+    "easy-table": "^0.3.0",
     "pushbullet": "^1.4.3"
   }
 }
