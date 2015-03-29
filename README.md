@@ -5,6 +5,11 @@ Send PushBullet notifications to your devices via the command line.
 The primary motivation for this project was to allow for an easy way to push notifications in response to system events.
 For example: notifying that a download has completed or that a build task has finished.
 
+## BIG FAT DISCLAMER
+
+This code uses features of **ES6** and was developed against the _io.js_ fork of _node.js_.
+It should run with vanilla _node.js_, but your mileage may vary!
+
 ## Installing
 
 This utility is designed to be light and simple with minimal dependencies and configuration.
