@@ -32,7 +32,7 @@ cmd
  */
 
 // Get user data folder
-var userData = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + 'Library/Preference' : '/var/local');
+var userData = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Preferences' : '/var/local');
 var configPath = userData + '/.pbcli';
 
 if (cmd.key) {
