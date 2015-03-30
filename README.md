@@ -8,7 +8,9 @@ For example: notifying that a download has completed or that a build task has fi
 ## BIG FAT DISCLAMER
 
 This code uses features of **ES6** and was developed against the _io.js_ fork of _node.js_.
-It should run with vanilla _node.js_, but your mileage may vary!
+It will **NOT** work with _node.js_ out of the box unless you specify the `--harmony_iteration` flag.
+
+For more information on _node.js_ and _ES6_ support refer to [Node.js and ES6/Harmony](https://github.com/joyent/node/wiki/ES6-%28a.k.a.-Harmony%29-Features-Implemented-in-V8-and-Available-in-Node)
 
 ## Installing
 
